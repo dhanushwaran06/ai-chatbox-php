@@ -11,7 +11,7 @@ A simple AI-powered chatbox built with PHP that interacts with the Hugging Face 
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ai-chatbox-php.git
+   git clone https://github.com/dhanushwaran06/ai-chatbox-php.git
    cd ai-chatbox-php
    ```
 
@@ -21,8 +21,8 @@ A simple AI-powered chatbox built with PHP that interacts with the Hugging Face 
    - Start Apache and MySQL services.
 
 3. **Update API Key**
-   - Open `public/index.php`
-   - Replace `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` with your actual Hugging Face API key.
+   - Open `index.php`
+   - Replace `your_api_key` with your actual Hugging Face API key.
 
 4. **Run the Application**
    - Open a browser and visit:
@@ -33,12 +33,10 @@ A simple AI-powered chatbox built with PHP that interacts with the Hugging Face 
 ## File Structure
 ```
 ai-chatbox-php/
-│── public/
-│   ├── index.php  (Main chatbox UI and backend logic)
+├── index.php  (Main chatbox UI and backend logic)
 │   ├── style.css  (Extracted CSS for better styling)
 │── .gitignore
 │── README.md
-│── LICENSE (Optional: MIT License)
 ```
 
 ## Usage
