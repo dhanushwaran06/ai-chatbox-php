@@ -2,7 +2,7 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $userInput = $_POST['query'];
     $apiUrl = 'https://router.huggingface.co/fireworks-ai/v1/chat/completions';
-    $apiKey = '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';
+    $apiKey = 'your_api_key';
 
     $data = json_encode([
         'model' => 'accounts/perplexity/models/r1-1776',
